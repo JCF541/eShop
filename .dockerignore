@@ -1,0 +1,30 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folders
+venv/
+ENV/
+.env
+.venv/
+
+# Distribution / build directories
+build/
+dist/
+*.egg-info/
+
+# Log files and temporary files
+*.log
+*.swp
+
+# IDE and editor files
+.vscode/
+.idea/
+.DS_Store
+
+# Node modules (for the frontend)
+node_modules/
+
+# Other OS-specific files
+Thumbs.db

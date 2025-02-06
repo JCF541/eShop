@@ -91,9 +91,12 @@ Thumbs.db
 # Node.js (for frontend)
 node_modules/
 
-# Docker
+# Docker-specific files
 docker-compose.override.yml
-Dockerfile.*
+# Ignore additional Dockerfile variants, but not the primary "Dockerfile"
+Dockerfile.dev*
+Dockerfile.test*
+Dockerfile.prod*
 *.log
 
 # Other temporary files
